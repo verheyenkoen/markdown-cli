@@ -10,8 +10,8 @@ $parser = new GithubMarkdown();
 array_shift($argv);
 
 if (!empty($argv)) {
-    $template = file_get_contents('markdown-template.html');
-    $markdown_css = file_get_contents('node_modules/github-markdown-css/github-markdown.css');
+    $template = file_get_contents(__DIR__ . '/markdown-template.html');
+    $markdown_css = file_get_contents(__DIR__ . '/node_modules/github-markdown-css/github-markdown.css');
 
     $template = str_replace('/* markdown_css */', $markdown_css, $template);
 
