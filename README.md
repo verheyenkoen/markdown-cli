@@ -1,5 +1,5 @@
 # markdown-cli
-Quick script to generate a (Github flavoured) markdown file to HTML and open it in the default browser.
+PHP script to generate a (Github flavoured) markdown file to HTML and open it in the default browser.
 
 # Installation
 
